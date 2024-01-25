@@ -1,0 +1,46 @@
+/* Header Css */
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+.nav-link.active{
+    color: var(--primary-color) !important;
+}
+
+.nav-link{
+    color: var(--text-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover{
+    color: var(--primary-color) !important;
+}
+
+.login_form{
+    min-height: 85vh;
+}
+
+.app_form{
+    background-color: var(--gray-color);
+    max-width: 550px;
+    width: 100%;
+}
+
+.app_btn{
+    background-color: var(--primary-color) !important;
+    outline: none !important;
+    border: none !important;
+}
+
+/* About Banner */
+.about_banner{
+    clip-path: polygon(100% 0, 100% 89%, 50% 100%, 0 89%, 0 48%, 0% 0%);
+    background-image: url('http://greenlightpropertyfinder.com/assets/images/bg_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_height{
+    min-height: 85vh;
+}
